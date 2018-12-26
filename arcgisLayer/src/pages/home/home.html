@@ -1,0 +1,34 @@
+<ion-content>
+
+    <div id="th-arcgis-map-div"></div>
+
+    <div class="th-maptrade">
+        <button ion-button small (click)='addLayer(0)'>
+            添加1
+        </button>
+        <button ion-button small (click)='addLayer(1)'>
+            添加2
+        </button>
+        <button ion-button small (click)='addLayer(2)'>
+            添加3
+        </button>
+        <button ion-button small (click)='removeLayer(0)'>
+            删除1
+        </button>
+        <button ion-button small (click)='removeLayer(1)'>
+            删除2
+        </button>
+        <button ion-button small (click)='removeLayer(2)'>
+            删除3
+        </button>
+    </div>
+
+    <div class="th-maptype">
+        <button ion-button small (click)='switchToVec(true)'>
+            地图
+        </button>
+        <button ion-button small (click)='switchToVec(false)'>
+            影像
+        </button>
+    </div>
+</ion-content>
